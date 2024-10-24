@@ -47,11 +47,13 @@ cd <path to the cloned project>
 - Navigate to Project: project-name > Python Interpreter.
 - In the top right corner, click the gear icon and select Add > Virtualenv Environment.
 - Choose New environment and click OK to create the virtual environment.
-- Installing Dependencies
+
+### 8. Installing Dependencies
 
 This will install all the necessary libraries for the project.
 
-- After creating the virtual environment, the project dependencies can be installed from the requirements.txt file:
+- After creating the virtual environment, the project dependencies 
+  can be installed from the **requirements.txt** file:
 - In PyCharm, open the integrated terminal (Alt+F12 or Cmd+Option+T on Mac).
 - In the terminal, run the command:
 
@@ -63,19 +65,21 @@ Paths will be automatically mapped through Python's pathlib library.
 
 ### 9. Running the Project
 
-- To start the project and access the notebook via the Jupyter interface, run the following command in PyCharm's integrated terminal:
+- To start the project and access the notebook via the Jupyter interface, 
+run the following command in PyCharm's integrated terminal:
 
 `
 jupyter notebook
 `
 
 - Access the link generated after running the command.
-- Then open the file feast_step.ipynb (http://localhost:8888/notebooks/feast_step.ipynb).
+- Then open the file **feast_step.ipynb** (http://localhost:8888/notebooks/feast_step.ipynb).
 - Now, just execute each command in the notebook to see the results.
 
 ### 10. Running the API - FastAPI and Swagger Documentation
 
-- Run the following command in PyCharm's integrated terminal (make sure you are in the <api> directory of the project, where the API's main.py file is located):
+- Run the following command in PyCharm's integrated terminal 
+(make sure you are in the <api> directory of the project, where the API's main.py file is located):
 
 `
 uvicorn main:app --reload --port 8080
@@ -116,8 +120,8 @@ $ python --version
 Siga as instruções abaixo para configurar o projeto no **PyCharm**:
 Clonando o Repositório
 
-- a. Primeiro, clone o repositório do GitHub para o seu ambiente local. 
-No terminal do PyCharm ou na linha de comando, execute:
+- Primeiro, clone o repositório do GitHub para o seu ambiente local. 
+- No terminal do PyCharm ou na linha de comando, execute:
 
 `
 git clone https://github.com/sainclersilva/ifood.git/
@@ -146,7 +150,8 @@ cd <caminho do projeto clonado>
 ### 8. Instalando as Dependências
 Isso instalará todas as bibliotecas necessárias para o projeto.
 
-- Após a criação do ambiente virtual, as dependências do projeto podem ser instaladas a partir do arquivo requirements.txt:
+- Após a criação do ambiente virtual, as dependências do projeto podem 
+  ser instaladas a partir do arquivo **requirements.txt**:
 - No PyCharm, abra o terminal integrado (Alt+F12 ou Cmd+Option+T no Mac).
 - No terminal, execute o comando:
 
@@ -166,13 +171,13 @@ jupyter notebook
 `
 
 - Acesse o link gerado após execução do comando
-- Depois acesso o arquivo feast_step.ipynb (http://localhost:8888/notebooks/feast_step.ipynb)
+- Depois acesso o arquivo **feast_step.ipynb** (http://localhost:8888/notebooks/feast_step.ipynb)
 - Agora é só executar cada comando do notebook para ver os resultados
 
 ### 10. Executar API - FastAPI e Documentação Swagger
 
 - Execute o comando abaixo no terminal integrado do PyCharm
-  (certique-se de estar no diretório <api> do projeto, onde se encontra o arquivo main.py da API)
+  (certique-se de estar no diretório <api> do projeto, onde se encontra o arquivo *main.py* da API)
 
 `
 uvicorn main:app --reload --port 8080
