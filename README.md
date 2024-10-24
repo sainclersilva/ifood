@@ -76,7 +76,7 @@ jupyter notebook
 - Then open the file **feast_step.ipynb** (http://localhost:8888/notebooks/feast_step.ipynb).
 - Now, just execute each command in the notebook to see the results.
 
-### 10. Running the API - FastAPI and Swagger Documentation
+### 10. Running the API - FastAPI and access Swagger Documentation
 
 - Run the following command in PyCharm's integrated terminal 
 (make sure you are in the <api> directory of the project, where the API's main.py file is located):
@@ -87,6 +87,14 @@ uvicorn main:app --reload --port 8080
 
 - Access the Swagger API documentation in the browser at: http://127.0.0.1:8080/docs
 - You can interact with the API through the interface at the previous link.
+
+
+### 11. AWS Architecture
+
+- The architecture diagram is available in the *diagram* directory.
+- There are two diagrams that describe a possible architecture to support the project.
+
+-----------------------------------------------------------------------
 
 -----------------------------------------------------------------------
 
@@ -185,5 +193,10 @@ uvicorn main:app --reload --port 8080
 
 - Acesse a documentação Swagger da API no navegador em: http://127.0.0.1:8080/docs
 - Pode-se interagir com a API através da interface do link anterior.
+
+### 11. Arquitetura AWS
+
+- O desenho da arquitetura está disponível no diretório **diagram**
+- Existem dois desenhos que descrevem uma possível arquitetura para atender o projeto
 
 ### -------------------------------------------------------------- ###
