@@ -30,15 +30,15 @@ $ python --version
 - a. Primeiro, clone o repositório do GitHub para o seu ambiente local. 
 No terminal do PyCharm ou na linha de comando, execute:
 
-'''
+`
 git clone https://github.com/sainclersilva/ml-feature-store-api.git/
-'''
+`
 
 - b. Navegue até o diretorio do projeto
 
-'''
+`
 cd <caminho do projeto clonado>
-'''
+`
 
 ### 5. Abrindo o Projeto no PyCharm
 
@@ -61,9 +61,9 @@ cd <caminho do projeto clonado>
 - b. No PyCharm, abra o terminal integrado (Alt+F12 ou Cmd+Option+T no Mac).
 - c. No terminal, execute o comando:
 
-'''
+`
 pip install -r requirements.txt
-'''
+`
 
 - Os paths serao mapeados automaticamente através da lib pathlib do Python
 
@@ -72,9 +72,9 @@ pip install -r requirements.txt
 - a. Para iniciar o projeto e acessar o notebook através da interface do jupter,
 execute o comando abaixo no terminal integrado ao PyCharm
 
-'''
+`
 jupyter notebook
-'''
+`
 
 - b. Acesse o link gerado após execução do comando
 - c. Depois acesso o arquivo feast_step.ipynb (http://localhost:8888/notebooks/feast_step.ipynb)
@@ -85,9 +85,9 @@ jupyter notebook
 - a.Execute o comando abaixo no terminal integrado do PyCharm
   (certique-se de estar no diretorio <api> do projeto, onde se encontra o arquivo main.py da API)
 
-'''
+`
 uvicorn main:app --reload --port 8080
-'''
+`
 
 - b.Acesse a documentacao Swagger da API no navegador em: http://127.0.0.1:8080/docs
 - c.Pode-se interagir com a API atraves da interface do link anterior.
