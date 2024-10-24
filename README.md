@@ -31,7 +31,7 @@ Clonando o Repositório
 No terminal do PyCharm ou na linha de comando, execute:
 
 `
-git clone https://github.com/sainclersilva/ml-feature-store-api.git/
+git clone https://github.com/sainclersilva/ifood.git/
 `
 
 - b. Navegue até o diretorio do projeto
