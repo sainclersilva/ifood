@@ -11,16 +11,17 @@ Feature Store Project with FastAPI
 ### 3. Instalando o Python 3.12.7
 Se você ainda não tem o Python 3.12.7 instalado, siga estas instruções:
 
-#### Windows/OS
+Windows/OS
+
 - a. Faça o download do Python 3.12.7 do [site oficial](https://www.python.org/downloads/release/python-3127/).
 - b. Execute o instalador e marque a opção **"Add Python to PATH"**.
 - c. Verifique se o Python foi instalado corretamente:
 
-# Verifique a versão instalada
+### 4. Verificando a versão instalada. Executando o comando abaixo
 
-'''
+´
 $ python --version
-'''
+´
 
 ### 4. Configurando o Projeto no PyCharm
 # Siga as instruções abaixo para configurar o projeto no **PyCharm**:
