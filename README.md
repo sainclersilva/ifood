@@ -94,12 +94,13 @@ uvicorn main:app --reload --port 8080
 - The architecture diagram is available in the *diagram* directory.
 - There are two diagrams that describe a possible architecture to support the project.
 
------------------------------------------------------------------------
+
 
 -----------------------------------------------------------------------
 
-### 1. Informções do projeto
-Feature Store Project - FastAPI
+
+### 1. Informações do projeto
+Machine Learning - Feature Store Project - FastAPI
 
 ### 2. Requisitos do Sistema
 
