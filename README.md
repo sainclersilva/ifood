@@ -2,19 +2,20 @@
 Feature Store Project - FastAPI
 
 ### 2. System Requirements
-Python 3.12.7: Make sure you have Python 3.12.7 installed.
-pip: Python package installer (usually comes with Python installation).
-Virtualenv: (Optional, but recommended) to isolate dependencies.
-PyCharm 2024.2.3 (recommended IDE) or VSCode.
+
+- **Python 3.12.7: Make sure you have Python 3.12.7 installed.
+- **pip: Python package installer (usually comes with Python installation).
+- **Virtualenv: (Optional, but recommended) to isolate dependencies.
+- **PyCharm 2024.2.3 (recommended IDE) or VSCode.
 
 ### 3. Installing Python 3.12.7
 If you don't have Python 3.12.7 installed yet, follow these instructions:
 
 Windows/OS
 
-a. Download Python 3.12.7 from the official site.
-b. Run the installer and check the "Add Python to PATH" option.
-c. Verify that Python was installed correctly:
+- **Download Python 3.12.7 from the official site.
+- **Run the installer and check the "Add Python to PATH" option.
+- **Verify that Python was installed correctly:
 
 ### 4. Checking the Installed Version. Run the command below
 
@@ -25,10 +26,10 @@ $ python --version
 ### 5. Setting Up the Project in PyCharm
 Follow the instructions below to set up the project in PyCharm: Cloning the Repository
 
-a. First, clone the GitHub repository to your local environment. In PyCharm's terminal or the command line, run:
+- **First, clone the GitHub repository to your local environment. In PyCharm's terminal or the command line, run:
 git clone https://github.com/sainclersilva/ifood.git/
 
-b. Navigate to the project directory:
+- **Navigate to the project directory:
 
 `
 cd <path to the cloned project>
@@ -36,23 +37,23 @@ cd <path to the cloned project>
 
 ### 6. Opening the Project in PyCharm
 
-a. Open PyCharm.
-b. In the startup menu, click File > Open.
-c. Navigate to the directory of the project you cloned and click OK.
+- **Open PyCharm.
+- **In the startup menu, click File > Open.
+- **Navigate to the directory of the project you cloned and click OK.
 
 ### 7. Creating a Virtual Environment in PyCharm
 
-a. In PyCharm, open Settings (Ctrl+Alt+S or Cmd+, on Mac).
-b. Navigate to Project: project-name > Python Interpreter.
-c. In the top right corner, click the gear icon and select Add > Virtualenv Environment.
-d. Choose New environment and click OK to create the virtual environment.
-8. Installing Dependencies
+- **In PyCharm, open Settings (Ctrl+Alt+S or Cmd+, on Mac).
+- **Navigate to Project: project-name > Python Interpreter.
+- **In the top right corner, click the gear icon and select Add > Virtualenv Environment.
+- **Choose New environment and click OK to create the virtual environment.
+- **Installing Dependencies
 
 This will install all the necessary libraries for the project.
 
-a. After creating the virtual environment, the project dependencies can be installed from the requirements.txt file:
-b. In PyCharm, open the integrated terminal (Alt+F12 or Cmd+Option+T on Mac).
-c. In the terminal, run the command:
+- **After creating the virtual environment, the project dependencies can be installed from the requirements.txt file:
+- **In PyCharm, open the integrated terminal (Alt+F12 or Cmd+Option+T on Mac).
+- **In the terminal, run the command:
 
 `
 pip install -r requirements.txt
@@ -62,26 +63,26 @@ Paths will be automatically mapped through Python's pathlib library.
 
 ### 9. Running the Project
 
-a. To start the project and access the notebook via the Jupyter interface, run the following command in PyCharm's integrated terminal:
+- **To start the project and access the notebook via the Jupyter interface, run the following command in PyCharm's integrated terminal:
 
 `
 jupyter notebook
 `
 
-b. Access the link generated after running the command.
-c. Then open the file feast_step.ipynb (http://localhost:8888/notebooks/feast_step.ipynb).
-d. Now, just execute each command in the notebook to see the results.
+- **Access the link generated after running the command.
+- **Then open the file feast_step.ipynb (http://localhost:8888/notebooks/feast_step.ipynb).
+- **Now, just execute each command in the notebook to see the results.
 
 ### 10. Running the API - FastAPI and Swagger Documentation
 
-a. Run the following command in PyCharm's integrated terminal (make sure you are in the <api> directory of the project, where the API's main.py file is located):
+- **Run the following command in PyCharm's integrated terminal (make sure you are in the <api> directory of the project, where the API's main.py file is located):
 
 `
 uvicorn main:app --reload --port 8080
 `
 
-b. Access the Swagger API documentation in the browser at: http://127.0.0.1:8080/docs
-c. You can interact with the API through the interface at the previous link.
+- **Access the Swagger API documentation in the browser at: http://127.0.0.1:8080/docs
+- **You can interact with the API through the interface at the previous link.
 
 -----------------------------------------------------------------------
 
@@ -89,6 +90,7 @@ c. You can interact with the API through the interface at the previous link.
 Feature Store Project - FastAPI
 
 ### 2. Requisitos do Sistema
+
 - **Python 3.12.7**: Certifique-se de ter o Python 3.12.7 instalado. 
 - **pip**: Instalador de pacotes do Python (geralmente já vem com a instalação do Python).
 - **Virtualenv**: (Opcional, mas recomendado) para isolar dependências.
