@@ -19,9 +19,9 @@ Windows/OS
 
 ### 4. Verificando a versão instalada. Executando o comando abaixo
 
-´
+`
 $ python --version
-´
+`
 
 ### 4. Configurando o Projeto no PyCharm
 # Siga as instruções abaixo para configurar o projeto no **PyCharm**:
